@@ -1,0 +1,34 @@
+body{
+	background-image: url("../img/coffeebeansbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+header{
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+}
+#coffeebeans{
+	margin-left: 55px;
+}
+#coffeebean{
+	background-color: #ffe4bd;
+	margin: 20px;
+	opacity: 0.5;
+	text-align: center;
+	padding: 45px 0px 45px;
+}
+#coffeebean>a{
+	font-size:3em;
+	color:rgba(51,24,15,1.00);
+	text-decoration:none;
+}
+#coffeebean>a:hover{
+	color:rgba(102,63,22,1.00);
+	text-decoration:none;
+}
+#coffeebean>a>p{
+	font-size: 3vw;
+}

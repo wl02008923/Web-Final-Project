@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+    background: url(../img/coffeebeanbackground.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.main{
+	margin-top: 3em;
+}
+#information{
+	margin-top: 2em;
+}
+#img{
+	width: 100%;
+	background: rgba(255,228,189,0.5);
+	padding: 2em;
+}
+#img>img{
+	opacity: 0.8;
+	width: 100%;
+	border:solid 0.5em white;
+}
+#detail{
+	margin-top: 2em;
+	background: rgba(255,228,189,0.5);
+	padding: 0em 1em 1em;
+	line-height: 3em;
+}
+article>p{
+	font-family:Microsoft JhengHei;
+	font-weight: bold;
+	text-shadow: 0em 0em 0.2em #ffffff;
+}

@@ -1,0 +1,47 @@
+body{
+    background: url(../img/coffee_bg.jpg) no-repeat center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.main{
+	margin-top: 3em;
+}
+#information{
+	background: rgba(255,228,189,0.5);
+	padding: 1em;
+	margin-top: 3em;
+}
+#img{
+	background-color: white;
+	width: 100%;
+}
+#img>img{
+	opacity: 0.8;
+}
+.textInf{
+	margin-top: 5em;
+	padding: 1em;
+}
+.textInf>p{
+	font-weight: bold;
+	text-shadow: 0px 0px 5px #ffffff;
+}
+#detail{
+	margin-left: 2em;
+}
+.row{
+	background: rgba(255,228,189,0.5);
+	padding: 1em;
+	margin-top: 3em;
+}
+.row>h1{
+	margin-top: 0em;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px #ffffff;
+}
+.row>article{
+	padding: 1em;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px #ffffff;
+}
+

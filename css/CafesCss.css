@@ -1,0 +1,65 @@
+body{
+	background-image: url("../img/cafebackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-width: 400px;
+}
+header{
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+}
+#cafes{
+	margin-left: 55px;
+}
+#cafe{
+	background: rgba(255,228,189,0.5);
+	height: 300px;
+	margin: 20px;
+}
+.row1>#cafe:nth-child(1)>a>img{
+	transform: scale(1);
+	transition: .3s ease-in-out;
+	margin-top: 30%;	
+}
+.row2>#cafe:nth-child(1)>a>img{
+	transform: scale(1);
+	transition: .3s ease-in-out;
+	margin-top: 50%;	
+}
+#cafe:nth-child(2)>a>img{
+	transform: scale(1);
+	transition: .3s ease-in-out;
+	margin-top: 20%;	
+}
+#cafe:nth-child(3)>a>img{
+	transform: scale(1);
+	transition: .3s ease-in-out;
+	margin-top: 20%;	
+}
+#cafe>a:hover>img{
+	transform: scale(1.1);
+}
+.row1>#cafe:nth-child(1)>a:hover>img{
+	transform: scale(1.1);
+}
+.row2>#cafe:nth-child(1)>a:hover>img{
+	transform: scale(1.1);
+}
+@media screen and (min-width: 992px){
+	.row2{
+		margin-left: 18%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:991px ){
+	.angel{
+		left: 20%;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 765px){
+	#cafe>a>img{
+		max-height: 220px;
+	}
+}

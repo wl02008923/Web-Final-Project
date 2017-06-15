@@ -1,0 +1,16 @@
+footer{
+	padding-top: 0.5em;
+	background: rgba(255,255,255,0.8);
+}
+.fblink{
+	margin-left: -1em;
+}
+.weblink{
+	margin-left: 1em;
+}
+.weblink>a{
+	text-decoration: none;
+}
+#indexFooter{
+	padding-bottom: 0.5em;
+}

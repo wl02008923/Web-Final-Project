@@ -1,0 +1,26 @@
+body{
+	background: url(../img/countryBg.jpg) no-repeat center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1{
+	background-color: rgba(255,255,255,0.8);
+	padding: 0.5em;
+}
+.main{
+	margin-top: 3em;
+}
+.row{
+	padding-top: 2em;
+}
+.countryPic,.countryInf{
+	padding: 1em;
+	background-color: rgba(255,255,255,0.9);
+
+}
+.countryInf>h3{
+	text-shadow: 0px 0px 5px #ffffff;
+}
+.container{
+	padding-bottom: 3em;
+}
